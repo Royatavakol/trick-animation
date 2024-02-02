@@ -1,0 +1,45 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+main{
+    width: 100%;
+    height: 100vh;
+   
+    background-image: radial-gradient(rgba(0, 0, 0, 0.707),pink);
+    
+    justify-content: center;align-items: center;display: flex;
+
+    >.box{
+        width: 500px;
+        height: 300px;position: relative;
+        transform-style: preserve-3d;
+        animation: roya linear 8s infinite alternate;
+
+        >span{
+            font-family: italic;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 140px;
+            text-transform: uppercase;
+            
+            
+            @for $i from 1 through 100{
+             &:nth-of-type(#{$i}){
+                 color: rgb(233,712,random(555),);
+                 transform: translate3d(-50%,-50%, $i+0px);
+             }
+            }
+            
+     
+     
+     
+     
+         }
+
+    }
+    
+}
+@keyframes roya {
+   to{ transform: rotate3d(1,10,1,360deg) ;}
+
+    
+}

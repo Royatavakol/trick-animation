@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        body{
+            background-color: palevioletred;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;height: 100vh;
+            >ul{
+                list-style-type: none;
+                display: flex;
+               
+                >li{
+                    width: 100px;
+                    height: 100px;
+                    /* border: 2px solid black; */
+                    border-radius: 50%;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;align-items: center;
+                    background-color: blueviolet;
+                    color: azure;
+                    font-size: 60px;
+                    font-family: italic;
+                    transition: transform 0.6s ease-in-out;
+                    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.658);
+                    &:first-of-type{
+                        border-radius: 25px 50px;
+                    }
+                    &:last-of-type{
+                        border-radius: 50px 25px;
+                    }
+                }
+                &:hover>li{
+                    &:nth-of-type(odd){
+                        transform: scale(0);
+                    }
+                    &:nth-of-type(even){
+                        transform: scale(0);
+                    }
+                }
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <ul>
+            <li>R</li>
+            <li>O</li>
+            <li>Y</li>
+            <li>A</li>
+        </ul>
+    </section>
+</body>
+</html>

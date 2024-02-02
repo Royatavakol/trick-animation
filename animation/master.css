@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.707), pink);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+main > .box {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: roya linear 8s infinite alternate;
+}
+main > .box > span {
+  font-family: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 140px;
+  text-transform: uppercase;
+}
+main > .box > span:nth-of-type(1) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 1px);
+}
+main > .box > span:nth-of-type(2) {
+  color: rgb(233, 255, 246);
+  transform: translate3d(-50%, -50%, 2px);
+}
+main > .box > span:nth-of-type(3) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 3px);
+}
+main > .box > span:nth-of-type(4) {
+  color: rgb(233, 255, 95);
+  transform: translate3d(-50%, -50%, 4px);
+}
+main > .box > span:nth-of-type(5) {
+  color: rgb(233, 255, 61);
+  transform: translate3d(-50%, -50%, 5px);
+}
+main > .box > span:nth-of-type(6) {
+  color: rgb(233, 255, 223);
+  transform: translate3d(-50%, -50%, 6px);
+}
+main > .box > span:nth-of-type(7) {
+  color: rgb(233, 255, 66);
+  transform: translate3d(-50%, -50%, 7px);
+}
+main > .box > span:nth-of-type(8) {
+  color: rgb(233, 255, 132);
+  transform: translate3d(-50%, -50%, 8px);
+}
+main > .box > span:nth-of-type(9) {
+  color: rgb(233, 255, 139);
+  transform: translate3d(-50%, -50%, 9px);
+}
+main > .box > span:nth-of-type(10) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 10px);
+}
+main > .box > span:nth-of-type(11) {
+  color: rgb(233, 255, 69);
+  transform: translate3d(-50%, -50%, 11px);
+}
+main > .box > span:nth-of-type(12) {
+  color: rgb(233, 255, 90);
+  transform: translate3d(-50%, -50%, 12px);
+}
+main > .box > span:nth-of-type(13) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 13px);
+}
+main > .box > span:nth-of-type(14) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 14px);
+}
+main > .box > span:nth-of-type(15) {
+  color: rgb(233, 255, 240);
+  transform: translate3d(-50%, -50%, 15px);
+}
+main > .box > span:nth-of-type(16) {
+  color: rgb(233, 255, 222);
+  transform: translate3d(-50%, -50%, 16px);
+}
+main > .box > span:nth-of-type(17) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 17px);
+}
+main > .box > span:nth-of-type(18) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 18px);
+}
+main > .box > span:nth-of-type(19) {
+  color: rgb(233, 255, 55);
+  transform: translate3d(-50%, -50%, 19px);
+}
+main > .box > span:nth-of-type(20) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 20px);
+}
+main > .box > span:nth-of-type(21) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 21px);
+}
+main > .box > span:nth-of-type(22) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 22px);
+}
+main > .box > span:nth-of-type(23) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 23px);
+}
+main > .box > span:nth-of-type(24) {
+  color: rgb(233, 255, 43);
+  transform: translate3d(-50%, -50%, 24px);
+}
+main > .box > span:nth-of-type(25) {
+  color: rgb(233, 255, 20);
+  transform: translate3d(-50%, -50%, 25px);
+}
+main > .box > span:nth-of-type(26) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 26px);
+}
+main > .box > span:nth-of-type(27) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 27px);
+}
+main > .box > span:nth-of-type(28) {
+  color: rgb(233, 255, 139);
+  transform: translate3d(-50%, -50%, 28px);
+}
+main > .box > span:nth-of-type(29) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 29px);
+}
+main > .box > span:nth-of-type(30) {
+  color: rgb(233, 255, 126);
+  transform: translate3d(-50%, -50%, 30px);
+}
+main > .box > span:nth-of-type(31) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 31px);
+}
+main > .box > span:nth-of-type(32) {
+  color: rgb(233, 255, 69);
+  transform: translate3d(-50%, -50%, 32px);
+}
+main > .box > span:nth-of-type(33) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 33px);
+}
+main > .box > span:nth-of-type(34) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 34px);
+}
+main > .box > span:nth-of-type(35) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 35px);
+}
+main > .box > span:nth-of-type(36) {
+  color: rgb(233, 255, 2);
+  transform: translate3d(-50%, -50%, 36px);
+}
+main > .box > span:nth-of-type(37) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 37px);
+}
+main > .box > span:nth-of-type(38) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 38px);
+}
+main > .box > span:nth-of-type(39) {
+  color: rgb(233, 255, 78);
+  transform: translate3d(-50%, -50%, 39px);
+}
+main > .box > span:nth-of-type(40) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 40px);
+}
+main > .box > span:nth-of-type(41) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 41px);
+}
+main > .box > span:nth-of-type(42) {
+  color: rgb(233, 255, 57);
+  transform: translate3d(-50%, -50%, 42px);
+}
+main > .box > span:nth-of-type(43) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 43px);
+}
+main > .box > span:nth-of-type(44) {
+  color: rgb(233, 255, 88);
+  transform: translate3d(-50%, -50%, 44px);
+}
+main > .box > span:nth-of-type(45) {
+  color: rgb(233, 255, 199);
+  transform: translate3d(-50%, -50%, 45px);
+}
+main > .box > span:nth-of-type(46) {
+  color: rgb(233, 255, 32);
+  transform: translate3d(-50%, -50%, 46px);
+}
+main > .box > span:nth-of-type(47) {
+  color: rgb(233, 255, 41);
+  transform: translate3d(-50%, -50%, 47px);
+}
+main > .box > span:nth-of-type(48) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 48px);
+}
+main > .box > span:nth-of-type(49) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 49px);
+}
+main > .box > span:nth-of-type(50) {
+  color: rgb(233, 255, 136);
+  transform: translate3d(-50%, -50%, 50px);
+}
+main > .box > span:nth-of-type(51) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 51px);
+}
+main > .box > span:nth-of-type(52) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 52px);
+}
+main > .box > span:nth-of-type(53) {
+  color: rgb(233, 255, 208);
+  transform: translate3d(-50%, -50%, 53px);
+}
+main > .box > span:nth-of-type(54) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 54px);
+}
+main > .box > span:nth-of-type(55) {
+  color: rgb(233, 255, 173);
+  transform: translate3d(-50%, -50%, 55px);
+}
+main > .box > span:nth-of-type(56) {
+  color: rgb(233, 255, 50);
+  transform: translate3d(-50%, -50%, 56px);
+}
+main > .box > span:nth-of-type(57) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 57px);
+}
+main > .box > span:nth-of-type(58) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 58px);
+}
+main > .box > span:nth-of-type(59) {
+  color: rgb(233, 255, 63);
+  transform: translate3d(-50%, -50%, 59px);
+}
+main > .box > span:nth-of-type(60) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 60px);
+}
+main > .box > span:nth-of-type(61) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 61px);
+}
+main > .box > span:nth-of-type(62) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 62px);
+}
+main > .box > span:nth-of-type(63) {
+  color: rgb(233, 255, 13);
+  transform: translate3d(-50%, -50%, 63px);
+}
+main > .box > span:nth-of-type(64) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 64px);
+}
+main > .box > span:nth-of-type(65) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 65px);
+}
+main > .box > span:nth-of-type(66) {
+  color: rgb(233, 255, 108);
+  transform: translate3d(-50%, -50%, 66px);
+}
+main > .box > span:nth-of-type(67) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 67px);
+}
+main > .box > span:nth-of-type(68) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 68px);
+}
+main > .box > span:nth-of-type(69) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 69px);
+}
+main > .box > span:nth-of-type(70) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 70px);
+}
+main > .box > span:nth-of-type(71) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 71px);
+}
+main > .box > span:nth-of-type(72) {
+  color: rgb(233, 255, 229);
+  transform: translate3d(-50%, -50%, 72px);
+}
+main > .box > span:nth-of-type(73) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 73px);
+}
+main > .box > span:nth-of-type(74) {
+  color: rgb(233, 255, 213);
+  transform: translate3d(-50%, -50%, 74px);
+}
+main > .box > span:nth-of-type(75) {
+  color: rgb(233, 255, 187);
+  transform: translate3d(-50%, -50%, 75px);
+}
+main > .box > span:nth-of-type(76) {
+  color: rgb(233, 255, 228);
+  transform: translate3d(-50%, -50%, 76px);
+}
+main > .box > span:nth-of-type(77) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 77px);
+}
+main > .box > span:nth-of-type(78) {
+  color: rgb(233, 255, 148);
+  transform: translate3d(-50%, -50%, 78px);
+}
+main > .box > span:nth-of-type(79) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 79px);
+}
+main > .box > span:nth-of-type(80) {
+  color: rgb(233, 255, 166);
+  transform: translate3d(-50%, -50%, 80px);
+}
+main > .box > span:nth-of-type(81) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 81px);
+}
+main > .box > span:nth-of-type(82) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 82px);
+}
+main > .box > span:nth-of-type(83) {
+  color: rgb(233, 255, 122);
+  transform: translate3d(-50%, -50%, 83px);
+}
+main > .box > span:nth-of-type(84) {
+  color: rgb(233, 255, 247);
+  transform: translate3d(-50%, -50%, 84px);
+}
+main > .box > span:nth-of-type(85) {
+  color: rgb(233, 255, 206);
+  transform: translate3d(-50%, -50%, 85px);
+}
+main > .box > span:nth-of-type(86) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 86px);
+}
+main > .box > span:nth-of-type(87) {
+  color: rgb(233, 255, 38);
+  transform: translate3d(-50%, -50%, 87px);
+}
+main > .box > span:nth-of-type(88) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 88px);
+}
+main > .box > span:nth-of-type(89) {
+  color: rgb(233, 255, 220);
+  transform: translate3d(-50%, -50%, 89px);
+}
+main > .box > span:nth-of-type(90) {
+  color: rgb(233, 255, 146);
+  transform: translate3d(-50%, -50%, 90px);
+}
+main > .box > span:nth-of-type(91) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 91px);
+}
+main > .box > span:nth-of-type(92) {
+  color: rgb(233, 255, 109);
+  transform: translate3d(-50%, -50%, 92px);
+}
+main > .box > span:nth-of-type(93) {
+  color: rgb(233, 255, 176);
+  transform: translate3d(-50%, -50%, 93px);
+}
+main > .box > span:nth-of-type(94) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 94px);
+}
+main > .box > span:nth-of-type(95) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 95px);
+}
+main > .box > span:nth-of-type(96) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 96px);
+}
+main > .box > span:nth-of-type(97) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 97px);
+}
+main > .box > span:nth-of-type(98) {
+  color: rgb(233, 255, 255);
+  transform: translate3d(-50%, -50%, 98px);
+}
+main > .box > span:nth-of-type(99) {
+  color: rgb(233, 255, 70);
+  transform: translate3d(-50%, -50%, 99px);
+}
+main > .box > span:nth-of-type(100) {
+  color: rgb(233, 255, 171);
+  transform: translate3d(-50%, -50%, 100px);
+}
+
+@keyframes roya {
+  to {
+    transform: rotate3d(1, 10, 1, 360deg);
+  }
+}/*# sourceMappingURL=master.css.map */
